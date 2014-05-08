@@ -61,7 +61,7 @@ $ cat novel.txt | wu-local string_reverser.rb
 .semit fo tsrow eht saw ti ,semit fo tseb eht saw tI
 ```
 
-The `wu-local` program consumes one line at at time from STDIN and
+The `wu-local` program consumes one line at a time from STDIN and
 calls your processor's `process` method with that line as a Ruby
 String object.  Each object you `yield` within your process method
 will be printed back out on STDOUT.
