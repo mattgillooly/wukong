@@ -699,7 +699,7 @@ options `--to` and `--from` on the command-line, as <a
 href="#serialization">defined above</a>.
 
 For processors which will only run inside a data flow, you can
-optimize by not doing any (de)serialization until except at the very
+optimize by not doing any (de)serialization except at the very
 beginning and at the end
 
 ```ruby
